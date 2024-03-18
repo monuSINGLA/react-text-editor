@@ -34,7 +34,7 @@ function App() {
     <>
       <ToastContainer />
       <div className="container  min-w-full h-full flex ">
-        <div className="text-editor w-full h-screen p-10 shadow-lg  font-serif text-2xl bg-slate-600">
+        <div className="text-editor w-full h-full p-10 shadow-lg  font-serif text-2xl bg-slate-600">
           <div className="flex flex-wrap justify-between gap-5 ">
             <div className="tool flex gap-2 text-white flex-wrap ">
               <button
