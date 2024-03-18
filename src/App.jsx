@@ -33,10 +33,10 @@ function App() {
   return (
     <>
       <ToastContainer />
-      <div className="container  min-w-full h-screen flex ">
+      <div className="container  min-w-full h-full flex ">
         <div className="text-editor w-full h-screen p-10 shadow-lg  font-serif text-2xl bg-slate-600">
-          <div className="flex justify-between ">
-            <div className="tool flex gap-2 text-white  ">
+          <div className="flex flex-wrap justify-between gap-5 ">
+            <div className="tool flex gap-2 text-white flex-wrap ">
               <button
                 className={`px-4 bg-gray-700 rounded-sm hover:bg-blue-700 `}
                 onClick={() => document.execCommand("undo")}
